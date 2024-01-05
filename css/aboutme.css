@@ -191,7 +191,7 @@ body {
 .sub-skill{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 60px;
 }
 
@@ -314,7 +314,7 @@ body {
     .home{
         position: absolute;
         width: 100%;
-        height: 180vh;
+        height: 150vh;
         background-color: #081b29;
         background-size: cover;
         gap: 3rem;
@@ -329,7 +329,7 @@ body {
 
     .information, img {
         width: 400px;
-        width: clamp(250px, 50%, 500px);
+        width: clamp(250px, 70%, 500px);
         animation: slideRight 1s ease forwards;
         animation-delay: .5s;
         opacity: 0;
@@ -363,7 +363,7 @@ body {
         display: flex;
         flex-wrap: wrap;
         justify-content: start;
-        margin-top: 30px;
+        margin-top: 10px;
         margin-bottom: 60px;
     }
     .tools{
@@ -387,21 +387,21 @@ body {
         animation: slideTop .7s ease forwards;
         animation-delay: calc(.2s * var(--i)); */
     }
-    .home{
+    /* .home{
         position: absolute;
         width: 100%;
         height: 200vh;
         background-color: #081b29;
         background-size: cover;
         gap: 3rem;
-    }
+    } */
 }
 @media (width<465px) {
     .sub-skill{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-top: 30px;
+        margin-top: 20px;
         margin-bottom: 60px;
     }
 }
