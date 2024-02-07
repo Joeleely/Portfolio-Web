@@ -200,7 +200,7 @@ body {
     font-size: 20px;
     font-weight: 800;
     animation: slideRight 1s ease forwards;
-    animation-delay: 1.8s;
+    animation-delay: 0.2s;
     opacity: 0;
 }
 
